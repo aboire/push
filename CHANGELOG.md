@@ -1,6 +1,13 @@
 # Changelog
 
 ## vCurrent
+
+- support lookup by userid to prevent duplicate records for same user
+
+- add-support-to-title-in-ios
+
+- allow-apn-category-field
+
 ## [v2.6.0] (https://github.com/raix/push/tree/v2.6.0)
 #### 28/01/15 by Morten Henriksen
 - Respect resume - if paused wait until resume before triggering start up events

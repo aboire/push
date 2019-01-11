@@ -5,6 +5,10 @@ iOS GUIDE
 In order to get started with iOS you will have to obtain a __cert.pem__ and an __key.pem__ for both production and development.
 Bellow are some snippets of documentation:
 
+## Xcode build note
+
+In later versions of Xcode you have to turn on notifications in the build settings!
+
 ##Certificates
 
 This is fairly straight forward, for the most parts you are guided in the developer.apple.com console:
@@ -20,7 +24,7 @@ This is described bellow:
 6. Test the `*.pem` files making sure they work
 7. Add the `*.pem` files to your `/private` folder in the Meteor app
 
-If you need to learn more about creating certificates you should read the whole [Great writeup by Ali](http://www.raywenderlich.com/32960/apple-push-notification-services-in-ios-6-tutorial-part-1) - Bellow is a short snippet from the blog:
+If you need to learn more about creating certificates you should read the whole [Great writeup by Ali](http://www.raywenderlich.com/32960/apple-push-notification-services-in-ios-6-tutorial-part-1) - Below is a short snippet from the blog:
 
 ###Making a PEM File
 So now you have three files:
